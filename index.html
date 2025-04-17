@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C3++ Programming Language</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      color: #00d4ff;
+      margin: 0;
+    }
+    nav {
+      background-color: #2c2c2c;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: #00d4ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .code-sample {
+      background: #1e1e1e;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      overflow-x: auto;
+      font-family: monospace;
+    }
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaaaaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>C3++ Language</h1>
+    <p>The Object-Oriented Extension of C3 with Modern Memory Management</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#example">Code</a>
+    <a href="#get-started">Get Started</a>
+  </nav>
+  <section id="about">
+    <h2>About C3++</h2>
+    <p>C3++ is a modern, object-oriented extension of the C3 language. It introduces class-based programming, automatic memory management with garbage collection, and a powerful compiler backend that emits LLVM IR.</p>
+  </section>
+  <section id="features">
+    <h2>Features</h2>
+    <ul>
+      <li>Class-based object-oriented design</li>
+      <li>Automatic garbage collection</li>
+      <li>Custom memory pools and adaptive memory tuning</li>
+      <li>Multi-threaded GC support</li>
+      <li>LLVM IR code generation</li>
+      <li>Virtual method tables and polymorphism</li>
+    </ul>
+  </section>
+  <section id="example">
+    <h2>Hello C3++</h2>
+    <div class="code-sample">
+<pre>
+class Greeter {
+  string message;
+
+  void setMessage(string msg) {
+    message = msg;
+  }
+
+  void greet() {
+    print(message);
+  }
+}
+
+void main() {
+  Greeter g;
+  g.setMessage("Hello, C3++!");
+  g.greet();
+}
+</pre>
+    </div>
+  </section>
+  <section id="get-started">
+    <h2>Get Started</h2>
+    <p>To get started with C3++, download the latest compiler and documentation from the <a href="#">GitHub repository</a>. Tutorials, language specification, and tooling support are available.</p>
+  </section>
+  <footer>
+    &copy; 2025 C3++ Language. Built with ❤️ for systems programmers.
+  </footer>
+</body>
+</html>
